@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/index/index"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "tabBar":{
+    "list":[
+      {
+        "text":"Index",
+        "pagePath":"pages/index/index",
+        "iconPath":"images/knight-d.png",
+        "selectedIconPath":"images/knight-s.png"
+      },
+      {
+        "text":"About",
+        "pagePath": "pages/about/about",
+        "iconPath": "images/info-d.png",
+        "selectedIconPath": "images/info-s.png"
+      }
+    ]
+  },
+  "window":{
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTextStyle":"black"
+  }
+}

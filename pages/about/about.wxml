@@ -1,0 +1,10 @@
+<view class="container">
+  <image class='about-image' src='/images/rod.jpg'></image>
+  <text style='font-size:60rpx; font-weight:bold;'>罗德岛</text>
+  <view>
+    <text>点击</text>
+    <navigator style='display:inline' url='/pages/index/index' open-type='switchTab' hover-class='nav-hover' class='nav-default'>这里</navigator> 
+    <text>前往主页</text>
+  </view>
+  <text>"对付感染者最佳的手段即是感染者。"</text>
+</view>
