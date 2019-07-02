@@ -1,0 +1,14 @@
+<swiper style='height:100vh' indicator-dots='{{true}}' current='{{currentIndex}}'>
+  <swiper-item wx:for="{{operatorList}}">
+    <view bindtap='f1' class='container' data-operator-id='{{item.id}}'>
+      <image class="avatar" src="{{item.imagePath}}"></image>
+      <text style='font-size:100rpx'>{{item.name}}</text>
+      <text>No.{{index+1}}</text>
+      <button catchtap='f0' style='margin-bottom:100rpx' wx:if='{{index < operatorList.length-1}}'>
+      <!--此按钮使用catchtap绑定事件，阻止向上冒泡传递-->
+        看看我们的偶像!
+      </button>
+    </view>
+  </swiper-item>
+</swiper>
+

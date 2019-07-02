@@ -1,7 +1,9 @@
 {
   "pages": [
     "pages/about/about",
-    "pages/index/index"
+    "pages/index/index",
+    "pages/slide/slide",
+    "pages/detail/detail"
   ],
   "sitemapLocation": "sitemap.json",
   "tabBar":{
@@ -11,6 +13,12 @@
         "pagePath":"pages/index/index",
         "iconPath":"images/knight-d.png",
         "selectedIconPath":"images/knight-s.png"
+      },
+      {
+        "text": "Slide",
+        "pagePath": "pages/slide/slide",
+        "iconPath": "images/slide-d.png",
+        "selectedIconPath": "images/slide-s.png"
       },
       {
         "text":"About",
