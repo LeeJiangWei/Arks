@@ -14,20 +14,30 @@ Page({
     //option为url参数中query字段属性
     this.setData({
       oid:options.id
-    })
+    });
 
+    let that = this;
     wx.request({
-      url: 'https://www.baidu.com/',
+      url: 'http://localhost:3000/operator-detail',
       method: 'get',
       data:{
-
+        "oid":1,
+        "name":options.name
       },
       header: {
 
       },
       //以下为回调函数
       success: function(res) {
-        console.log(res)
+        that.setData({
+          name_zh:res.data.name_zh,
+          sex:res.data.sex,
+          operator_class:res.data.operator_class,
+          stars:res.data.stars,
+          tags:res.data.tags,
+          img_src:res.data.img_src
+        });
+        console.log(res.data)
       },
       fail: function(){
 

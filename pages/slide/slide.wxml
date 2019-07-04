@@ -1,6 +1,6 @@
 <swiper style='height:100vh' indicator-dots='{{true}}' current='{{currentIndex}}'>
   <swiper-item wx:for="{{operatorList}}">
-    <view bindtap='f1' class='container' data-operator-id='{{item.id}}'>
+    <view bindtap='f1' class='container' data-operator-id='{{item.id}}' data-operator-name='{{item.name}}'>
       <image class="avatar" src="{{item.imagePath}}"></image>
       <text style='font-size:100rpx'>{{item.name}}</text>
       <text>No.{{index+1}}</text>

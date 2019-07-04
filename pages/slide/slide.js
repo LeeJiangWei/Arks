@@ -37,8 +37,9 @@ Page({
 
   f1:function(event) {
     let id = event.currentTarget.dataset.operatorId
+    let name = event.currentTarget.dataset.operatorName
     wx.navigateTo({
-      url: '/pages/detail/detail?id=' + id,
+      url: '/pages/detail/detail?id=' + id + '&name=' + name
     })
   },
 

@@ -6,3 +6,9 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.avatar{
+  height:400rpx;
+  width:400rpx;
+  border-radius:5%;
+}

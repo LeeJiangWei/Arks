@@ -1,1 +1,7 @@
-<text>detail for operator {{oid}}</text>
+<view class="container">
+  <image src='{{img_src}}' class='avatar'></image>
+  <text style='font-size:100rpx'>{{name_zh}}</text>
+  <text>星级：{{stars}}</text>
+  <text>{{operator_class}}</text>
+  <text>{{tags}}</text>
+</view>
