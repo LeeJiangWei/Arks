@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "Index"
+  "navigationBarTitleText": "Index",
+  "usingComponents":{
+    "card":"/components/card/card"
+  }
 }

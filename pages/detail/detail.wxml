@@ -1,7 +1,12 @@
 <view class="container">
-  <image src='{{img_src}}' class='avatar'></image>
-  <text style='font-size:100rpx'>{{name_zh}}</text>
-  <text>星级：{{stars}}</text>
-  <text>{{operator_class}}</text>
-  <text>{{tags}}</text>
+  <view wx:if='{{errorMsg}}'>
+    <text>Error: {{errorMsg}}</text>
+  </view>
+  <view wx:else class="container">
+    <image src='{{img_src}}' class='avatar'></image>
+    <text style='font-size:100rpx'>{{name_zh}}</text>
+    <text>星级：{{stars}}</text>
+    <text>{{operator_class}}</text>
+    <text>{{tags}}</text>
+  </view>
 </view>

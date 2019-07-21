@@ -10,5 +10,14 @@
       </button>
     </view>
   </swiper-item>
+  <swiper-item>
+    <view class='container'>
+      <form bindsubmit='onSubmit'>
+        <text>搜索干员：</text>
+        <input type='text' name='operatorName' class='input' id='search'/>
+        <button form-type='submit'>搜索</button>
+      </form>
+    </view>
+  </swiper-item>
 </swiper>
 

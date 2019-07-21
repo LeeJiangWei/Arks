@@ -1,7 +1,12 @@
-.input {
+.card{
+  height: 300rpx;
   width: 600rpx;
   border: solid;
   border-color: white;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 1px #B2B2B2;
+}
+
+.card > view{
+  
 }

@@ -43,6 +43,14 @@ Page({
     })
   },
 
+  onSubmit:function(event) {
+    const name = event.detail.value.operatorName;
+    // console.log(name);
+    wx.navigateTo({
+      url: '/pages/detail/detail?&name=' + name
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

@@ -2,3 +2,4 @@
   <image src='/images/ark.jpg'></image>
   <text>{{text}}</text>
 </view>
+<card></card>
